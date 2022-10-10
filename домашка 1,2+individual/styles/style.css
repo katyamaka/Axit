@@ -1,0 +1,123 @@
+/* Вторая домашка */
+.tabs {
+  width: 100vw;
+  margin: 0 auto;
+}
+.tabs .tabs__content {
+  width: 1170px;
+  margin: 0 auto;
+}
+.tabs .tabs__content {
+  height: 580px;
+  width: 1170px;
+}
+.tabs .tabs__content .tab__name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+}
+.tabs .tabs__content .tabs__tab1 {
+  width: 201px;
+  height: 39px;
+  border: 1px solid #c6cbcd;
+  display: inline-block;
+  margin-bottom: -1px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  border-bottom: none;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.tabs .tabs__content .tabs__tab2 {
+  width: 201px;
+  height: 39px;
+  border: 1px solid #c6cbcd;
+  display: inline-block;
+  margin-bottom: -1px;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  margin-left: -5px;
+}
+.tabs .tabs__content .tabs__tab3 {
+  width: 201px;
+  height: 39px;
+  border: 1px solid #c6cbcd;
+  display: inline-block;
+  margin-bottom: -1px;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  margin-left: -5px;
+}
+.tabs .tabs__content .tabs__banner {
+  width: 1170px;
+  height: 501px;
+  display: inline-block;
+}
+.tabs .tabs__content .tabs__banner .tabs__left-banner {
+  width: 60%;
+  display: inline-block;
+  height: 500px;
+  vertical-align: top;
+}
+.tabs .tabs__content .tabs__banner .tabs__left-banner .tabs__left-banner-title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  font-style: normal;
+
+  color: #000000;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.tabs
+  .tabs__content
+  .tabs__banner
+  .tabs__left-banner
+  .tabs__left-banner-subtitle {
+  margin-left: 100px;
+  margin-right: 30px;
+  font-family: "Raleway";
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  align-items: center;
+
+  color: #000000;
+}
+.tabs .tabs__content .tabs__banner .tabs__left-banner .tabs__download-button {
+  margin-left: 100px;
+  width: 270px;
+  height: 58px;
+  background-color: #ec7979;
+  color: white;
+  border: none;
+}
+
+.tabs .tabs__content .tabs__banner .tabs__right-banner {
+  height: 500px;
+  width: 39%;
+  display: inline-block;
+}
+.tabs .tabs__content .tabs__banner .tabs__right-banner .tabs__right-banner-img {
+  width: 100%;
+  height: 100%;
+  padding-left: 8px;
+}
+.tabs .tabs__content .tabs__banner {
+  border: 1px solid;
+  border-color: #c6cbcd;
+}
