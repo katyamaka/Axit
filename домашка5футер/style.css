@@ -1,0 +1,73 @@
+.content {
+  width: 1510px;
+  height: 164px;
+  margin: 0 auto;
+  background-color: black;
+}
+.content .content-images {
+  padding-top: 39.43px;
+  margin-bottom: 39.43px;
+  text-align: center;
+}
+.content .content-images .content-image__image-facebook {
+  height: 42.11666488647461px;
+  width: 23.044466018676758px;
+  border-radius: 0px;
+  display: inline-block;
+}
+.content .content-images .content-image__image-twitter {
+  height: 35.38243865966797px;
+  width: 43.56193161010742px;
+  border-radius: 0px;
+  display: inline-block;
+  padding-right: 44.65px;
+  padding-left: 44.65px;
+}
+.content .content-images .content-image__image-in {
+  height: 39.89999771118164px;
+  width: 39.89999771118164px;
+  border-radius: 0px;
+  display: inline-block;
+  margin-right: 43.88px;
+}
+
+.content .content-images .content-image__image-p {
+  height: 44.333335876464844px;
+  width: 44.333335876464844px;
+  border-radius: 0px;
+  display: inline-block;
+  margin-right: 43.88px;
+}
+.content .content-images .content-image__image-inst {
+  height: 39.984230041503906px;
+  width: 39.91773223876953px;
+  border-radius: 0px;
+  display: inline-block;
+  margin-right: 43.99px;
+}
+.content .content-images .content-image__image-cat {
+  height: 43.12641525268555px;
+  width: 44.21807098388672px;
+  border-radius: 0px;
+  display: inline-block;
+  margin-right: 46.1px;
+}
+
+.content .content-images .content-images_image-wifi {
+  height: 34.4913330078125px;
+  width: 34.4913330078125px;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 0px;
+}
+
+.content .content__subtitle {
+  color: #ffffff80;
+  text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 27px;
+  margin: 0 auto;
+}
