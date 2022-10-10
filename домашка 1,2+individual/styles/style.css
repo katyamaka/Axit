@@ -1,6 +1,5 @@
 /* Вторая домашка */
 .tabs {
-  width: 100vw;
   margin: 0 auto;
 }
 .tabs .tabs__content {
@@ -31,8 +30,8 @@
   text-align: center;
   background-color: white;
   border-bottom: none;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .tabs .tabs__content .tabs__tab2 {
   width: 201px;
