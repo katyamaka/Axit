@@ -1,4 +1,7 @@
 /* Вторая домашка */
+body {
+  margin: 0;
+}
 .tabs {
   margin: 0 auto;
 }
@@ -9,6 +12,7 @@
 .tabs .tabs__content {
   height: 580px;
   width: 1170px;
+  margin-top: 100px;
 }
 .tabs .tabs__content .tab__name {
   font-family: "Open Sans";
