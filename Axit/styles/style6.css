@@ -175,7 +175,12 @@
   color: #ffffff;
   border-color: #ec7979;
 }
-
+.header-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .header-content
   .header-content-info
   .header-content-info-right
@@ -341,6 +346,9 @@
   height: 442px;
   background-image: url(../images/background-city.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
 }
 .download .download__darker {
   width: 100%;
