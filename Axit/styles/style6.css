@@ -41,19 +41,27 @@
 /* Left side */
 .header-content {
   background-image: url(../images/city.png);
-  background-size: cover;
+
   width: 100%;
   display: flex;
   justify-content: center;
   height: 980px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
 }
 .header-content .header-content__dark {
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
 }
 
 .header-content .header-content-info {
