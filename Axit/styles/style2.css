@@ -104,3 +104,14 @@
   width: 46px;
   margin: 20px auto;
 }
+
+@media (max-width: 1191px) {
+  .awesome .awesome__content {
+    width: 100%;
+  }
+}
+@media (max-width: 490px) {
+  .awesome {
+    padding-top: 80px;
+  }
+}

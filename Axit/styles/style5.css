@@ -384,3 +384,47 @@
   align-items: center;
   color: #000000;
 }
+
+@media (max-width: 1191px) {
+  .customers .customers_content {
+    width: 100%;
+  }
+  .customers .customers_content .customers_content_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .customers .customers_content .customers_content__title {
+    width: 100%;
+    text-align: center;
+  }
+  .customers .customers_content .customers_content__subtitle {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 373px) {
+  .customers
+    .customers_content
+    .customers_content_cards
+    .customers_content_cards_david
+    .customers_content_cards_david__review {
+    width: 100%;
+  }
+  .customers
+    .customers_content
+    .customers_content_cards
+    .customers_content_cards_jaydon
+    .customers_content_cards_jaydon__review {
+    width: 100%;
+  }
+  .customers
+    .customers_content
+    .customers_content_cards
+    .customers_content_cards_cooper
+    .customers_content_cards_cooper__review {
+    width: 100%;
+  }
+}

@@ -324,3 +324,172 @@
   text-transform: capitalize;
   color: #86878b;
 }
+
+@media (max-width: 1191px) {
+  .pricing .pricing_content {
+    width: 100%;
+    display: flex;
+  }
+  .pricing .pricing_content .pricing_content__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 50px;
+    align-self: center;
+  }
+}
+@media (max-width: 1147px) {
+  .pricing .pricing_content {
+    width: 100%;
+    display: flex;
+  }
+  .pricing .pricing_content .pricing_content_cards {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+    align-items: center;
+  }
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_basic {
+    align-self: center;
+  }
+
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_optima {
+    align-self: center;
+    margin-top: 30px;
+  }
+  .pricing .pricing_content .pricing_content_cards .pricing_content_cards_pro {
+    align-self: center;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 373px) {
+  .pricing .pricing_content .pricing_content__subtitle {
+    align-self: center;
+    justify-self: center;
+
+    width: 100%;
+    text-align: center;
+  }
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_basic
+    .pricing_content_cards_basic__title {
+    width: 100%;
+  }
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_basic
+    .pricing_content_cards_basic__price {
+    width: 100%;
+  }
+
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_basic
+    .pricing_content_cards_basic__free {
+    width: 100%;
+  }
+
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_basic
+    .pricing_content_cards_basic__1gb {
+    width: 100%;
+  }
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_basic {
+    width: 100%;
+  }
+
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_optima
+    .pricing_content_cards_optima__title {
+    width: 100%;
+  }
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_optima
+    .pricing_content_cards_optima__price {
+    width: 100%;
+  }
+
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_optima
+    .pricing_content_cards_optima__free {
+    width: 100%;
+  }
+
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_optima
+    .pricing_content_cards_optima__1gb {
+    width: 100%;
+  }
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_optima {
+    width: 100%;
+  }
+
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_pro
+    .pricing_content_cards_pro__title {
+    width: 100%;
+  }
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_pro
+    .pricing_content_cards_pro__price {
+    width: 100%;
+  }
+
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_pro
+    .pricing_content_cards_pro__free {
+    width: 100%;
+  }
+
+  .pricing
+    .pricing_content
+    .pricing_content_cards
+    .pricing_content_cards_pro
+    .pricing_content_cards_pro__1gb {
+    width: 100%;
+  }
+  .pricing .pricing_content .pricing_content_cards .pricing_content_cards_pro {
+    width: 100%;
+  }
+}
